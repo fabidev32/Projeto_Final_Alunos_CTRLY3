@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Jogos</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <!-- Fontes do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- div do título-->
+        <div class="div_titulo">
+            <h1> Biblioteca de Jogos </h1>
+        </div>
+        <!-- div dos liks de navegação-->
+        <ul class="links_de_navegacao">
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> Lista e Favoritos </a></li>
+            <li><a href="#"> Cadastro de jogos </a></li>
+            <li><a href="#"> Cadastro de jogos </a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="section_bem_vindo">
+            <div>
+                <div class="div_texto_bem_vindo">
+                    <h2>Bem-vindo ao nosso site!</h1>
+                        <p>
+                            Aqui vocês podem acessar jogos dos mais diversos estilos! Além disso, acessar jogos
+                            desenvolvidos por nós, programadores.
+                            Veja abaixo todos os recursos que você terá acesso:
+                        </p>
+                </div>
+                <div class="div_recursos_do_site">
+                    <button onclick="rolarParaPesquisaDeJogos()">1. Pesquisa de jogos e filtros personalizados</button>
+                    <button onclick="rolarParaJogosAutorais()">2. Lista de jogos favoritos</button>
+                    <button onclick="rolarParaSolicitacaoDeCadastro()">3. Acesso a jogos autorais e, ainda, uma
+                        demonstração de como desenvolvemos o jogo!</button>
+                    <button onclick="rolarParaSolicitacaoDeCadastro()">4. Uma seção para solicitar que você cadastre,
+                        também, o seu próprio jogo na
+                        plataforma!</button>
+                </div>
+            </div>
+            <img src="./../../imagens/imagem_bem_vindo.png" alt="imagem de boas vindas">
+        </section>
+
+        <!-- Container de pesquisa de jogos, filtros, acesso a jogos autorais e solicitação de cadastro -->
+        <section class="container_recursos_do_site">
+
+
+            <section class="section_pesquisa_de_jogos">
+                <img src="./../../imagens/imagem_bem_vindo.png" alt="imagem de boas vindas">
+                <div>
+                    <h3> Pesquisa de Jogos e Filtros </h3>
+                    <p> Pesquise os mais diversos tipos de jogos!
+                        Aqui você encontra os mais variados estilos de jogos.
+                        Além de pesquisar para ficar mais fácil de encontrá-los, você ainda tem a possibilidade de criar
+                        listas
+                        personalizadas e favoritar seus jogos preferidos!
+                    </p>
+                </div>
+            </section>
+            <!-- Acesso a jogos autorais e demonstração -->
+            <section class="section_jogos_autorais">
+                <img src="./../../imagens/imagem_bem_vindo.png" alt="imagem de boas vindas">
+                <div>
+                    <h3> Acesso a jogos autorais e, ainda, uma demonstração de como desenvolvemos o jogo! </h3>
+                    <p> Acesse jogos desenvolvidos por nós, programadores! </p>
+                    <p> Veja como criamos os jogos e experimente-os antes de decidir se são para você! </p>
+                </div>
+            </section>
+            <!-- Solicitação de cadastro de jogos próprios na nossa plataforma -->
+            <section class="section_solicitacao_de_cadastro">
+                <img src="./../../imagens/imagem_bem_vindo.png" alt="imagem de boas vindas">
+                <div>
+                    <h3> Solicitação de cadastro de jogos próprios na nossa plataforma </h3>
+                    <p> Quer compartilhar seu jogo com a comunidade? </p>
+                    <p> Siga as instruções para cadastrar seu jogo na nossa plataforma! </p>
+                </div>
+            </section>
+
+        </section>
+
+
+    </main>
+
+
+
+    <script src="home.js"></script>
+
+
+</body>
+
+</html>

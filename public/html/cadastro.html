@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        <div class="div_formulario">
+
+            <label for "nome"> Nome: </label>
+            <input id="nome" type="text" name="nome" placeholder="Digite o nome de usuário" />
+
+            <label for "data"> Data de nascimento: </label>
+            <input id="data" type="date" name="email" />
+
+            <label for "email"> E-mail: </label>
+            <input id="email" type="email" name="email" />
+
+            <label for "senha"> Senha: </label>
+            <input id="senha" type="password" name="senha" placeholder="Digite a senha" />
+
+            <!-- Validação da senha -->
+            <div id="mensagemSenha"> </div>
+
+            <button type = "submit" id ="botaoCadastrar" >
+                Cadastrar
+            </button>
+
+        </div>
+    </form>
+
+    <script src="./../javascript/cadastro.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fjalla One", sans-serif;
+    background-color: #b9bce7;
+}
+
+/* Topo da página */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    gap: 20px;
+    background-color: #3F448C;
+
+}
+
+.div_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    background-color: #3F448C;
+}
+
+.div_titulo h1 {
+    padding: 20px;
+    font-size: 50px;
+    font-family: "Fjalla One", sans-serif;
+    text-transform: uppercase;
+    animation: alterarCor 5s infinite;
+}
+
+@keyframes alterarCor {
+    0% {
+        color: #666a9d;
+    }
+
+    50% {
+        color: #b9bce7;
+    }
+
+    100% {
+        color: #dadcef;
+    }
+
+}
+
+.links_de_navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 10px 10px 10px rgba(58, 56, 56, 0.5);
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links_de_navegacao li {
+    font-size: 20px;
+    padding: 15px;
+    width: 300px;
+}
+
+.links_de_navegacao li a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Fjalla One", sans-serif;
+    text-decoration: none;
+}
+
+/* Seção de boas vindas */
+
+.section_bem_vindo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    margin: 30px;
+}
+
+.section_bem_vindo div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    gap: 10px;
+}
+
+.div_texto_bem_vindo h2 {
+    font-size: 50px;
+    color: #3F448C;
+    text-transform: uppercase;
+}
+
+.div_texto_bem_vindo p {
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    color: #3F448C;
+    text-align: center;
+    width: 600px;
+}
+
+.section_bem_vindo img {
+    width: 600px;
+    height: 500px;
+    background-color: #9aa7e1;
+    border-radius: 40px;
+    margin: 20px;
+    animation: alterarCorDaBorda 5s infinite;   
+}
+
+
+@keyframes alterarCorDaBorda {
+    0% {
+        box-shadow: 0 0 20px 5px #020421;
+    }
+
+    50% {
+        box-shadow: 0 0 20px 5px #9aa7e1;
+    }
+
+    100% {
+        box-shadow: 0 0 20px 5px #3F448C;
+    }
+}
+
+.div_recursos_do_site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.div_recursos_do_site button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    background-color: #3F448C;
+    transition: transform 0.3s ease;
+}
+
+.div_recursos_do_site button:hover {
+    background-color: #9aa7e1;
+    color: #3F448C;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+
+/* Seção de jogos e filtros */
+
+.container_recursos_do_site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+/* Seção de pesquisa de jogos e filtros */
+
+.section_pesquisa_de_jogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 80%;
+    margin: 10px;
+    border: 2px solid #9aa7e1;
+    border-radius: 10px;
+}
+
+.section_pesquisa_de_jogos img {
+    width: 500px;
+    height: 100%;
+    background-color: #9aa7e1;
+}
+
+.section_pesquisa_de_jogos div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Seção de jogos autorais */
+
+.section_jogos_autorais {
+    display: flex;
+    justify-content: right;
+    height: 500px;
+    width: 80%;
+    margin: 10px;
+    border: 2px solid #9aa7e1;
+    border-radius: 10px;
+
+}
+
+.section_jogos_autorais img {
+    width: 500px;
+    height: 100%;
+    background-color: #9aa7e1;
+}
+
+.section_jogos_autorais div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Seção de jogos autorais */
+
+.section_solicitacao_de_cadastro {
+    display: flex;
+    justify-content: right;
+    height: 500px;
+    width: 80%;
+    margin: 10px;
+    border: 2px solid #9aa7e1;
+    border-radius: 10px;
+
+}
+
+.section_solicitacao_de_cadastro img {
+    width: 500px;
+    height: 100%;
+    background-color: #9aa7e1;
+}
+
+.section_solicitacao_de_cadastro div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
